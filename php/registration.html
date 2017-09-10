@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="UTF-8"> 
+	<title>Registration page</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/authmain.css"> 
+</head>
+    
+<body>		
+    <style>      
+      @font-face {
+          font-family: Brasileirinha;
+          src: url(font/Brasileirinha.ttf);
+      }
+      
+      @font-face {
+          font-family: Lobster;
+          src: url(../font/Lobster.ttf);      
+      }
+      
+      @font-face {
+          font-family: Qoh;
+          src: url(font/qoh.ttf);
+      }
+      </style>
+    
+<h1 class="authmainTitle" style="text-align: center; padding: 3rem 0;">Registration Page</h1>
+<div class="site__container">
+<div class="grid__container">
+    <form action="register.php" method=POST class="form form--login">
+        <div class="form__field">
+            <label class="fontawesome-user"><span class="hidden">Username</span></label>
+            <input type=text name=username class="form__input" placeholder="Username" required>
+        </div>
+        <div class="form__field">
+            <label class="fontawesome-lock"><span class="hidden">Password</span></label>
+            <input type=password name=password class="form__input" placeholder="Password" required>
+        </div>    
+        <div class="form__field">
+            <label class="fontawesome-lock"><span class="hidden">Password confirmation</span></label>
+            <input type=password name=password2 class="form__input" placeholder="Password Confirmation" required>
+        </div>    
+        <input type=submit name=submit value=Submit>
+    </form>
+</div></div>
+</body>
+     <footer class="footer" style="position: absolute; bottom: 0; width: 100%;">
+          <p>Nanyang Technological University -- School of IEM Copy Right 2016</p>
+          <p>Zhao Juncheng &amp; Zhang Hanyue</p>
+          <img src = "../image/logo2.png" class="footerlogo">
+      </footer>
+</html>

@@ -1,0 +1,121 @@
+.career {
+    margin-left: 5%;
+    width: 90%; 
+}
+
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 3px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+.tab li {
+    font-family: Lucida Sans Unicode;
+    font-weight: bold;
+}
+        
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding-bottom: 30px;
+}
+
+.tabcontent {
+    font-family: Lucida Sans Unicode;
+}
+
+
+.tabcontent p{
+    padding-bottom: 5px;
+    font-size:80%;
+    font-family: Lucida Sans Unicode;
+}
+
+.tabcontent li{
+    font-size:80%;
+    font-family: Lucida Sans Unicode;
+    margin-left: 2%;
+}
+
+.applyNow {
+    padding-top: 40px;
+    margin-left: 5%;
+    width: 90%; 
+}
+
+.application-form {
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 15px auto;
+    padding: 15px;
+    width: 600px;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.applyInput {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 15px;
+  border-radius: 5px;
+  line-height: 15px;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.applyInput:focus { border:px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }

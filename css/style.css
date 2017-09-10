@@ -1,0 +1,111 @@
+* {
+  margin:0px;
+  padding:0px;
+
+}
+.nav {
+  list-style-type:none;
+  display:flex;
+  width:100%;
+  background:#222;
+  position: fixed;
+  overflow: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  font-size: 40px;
+  z-index: 100;
+}  
+
+li{
+  font-family: Brasileirinha;
+  font-size: 80%;    
+}
+li a{
+    text-decoration:none;
+}
+.navItem {
+  flex-grow: 1;  
+}
+.navItem a {
+  color:white;
+  text-decoration:none;
+}
+li a:hover {
+  color:red;
+}
+
+.logo2 {
+   padding-top: 20%;
+   padding-bottom: 5%;
+   position: relative;
+   left: 40%;
+   width: 20%
+}
+
+.inCinema{
+    font-family: Lobster;
+    color: red;
+    text-decoration:none;
+    font-size: 300%; 
+}
+
+.title{
+    margin-left: 4%;
+    font-family: Lobster;
+    color: red;
+    text-decoration:none;
+    font-size: 300%; 
+}
+
+#news {
+    text-align: center;
+    margin: auto;
+}
+
+#news li:nth-child(2n+1) {
+    clear:left;
+}
+
+#news li {
+  list-style-type: none;
+  width: 40%;
+  margin: 1.5rem 1.6rem 0;
+  padding: 1%;
+  float: left;
+  text-align: center;
+}
+
+#news ul { 
+  padding: 0;
+}
+
+#news img { 
+  max-width: 105%;
+}
+
+#news h2 {
+  text-align: left;
+  font-size:200%;
+  color: black;
+}
+
+#news p {
+  text-align: left;
+  font-size:150%;
+  font-family: Lobster;
+  color: black;
+}
+
+.footer{
+    text-align: center;
+    font-family: Lobster;
+    background: lightgray;
+    font-size: 60%;
+    padding: 1.5%;
+    clear:both;
+	display:block;
+}
+.footerlogo{
+    width: 6%;
+}
